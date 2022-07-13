@@ -1,4 +1,25 @@
+body{
+    background-color: black;
+}
+
 h1{
     font-family: popins, sans-serif;
     color: pink;
+}
+
+#Insert-Joke-Here {
+    color: pink;
+}
+
+#random-joke-button {
+    background-color: #ddd;
+    border: 2px solid pink;
+    color: black;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
 }
