@@ -34,6 +34,8 @@ const fetchJokeFromChuckNorisApi = async ( category ) => {
                 category: category
             }
         });
+        //let hieronder op welke response.etc je uitstuurt, als je een parameter wil die bv geen value is maar data krijg je andere dingen terug
+        // Ook kun je natuurlijk binnen deze respons.data. etc ook een array aanspreken met [].value ); //
         console.log ( response.data.value );
     } catch ( e ) {
         console.error( e );
